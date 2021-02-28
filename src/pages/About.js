@@ -6,7 +6,7 @@ function About() {
     <Card style={{ width: "75%" }}>
       <Card.Img
         variant="top"
-        src={require("./assets/IMG_1463.jpg")}
+        src="./assets/image/IMG_1463.jpg"
         alt="Head Shot"
       />
       <Card.Body>
