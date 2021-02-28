@@ -1,10 +1,15 @@
 import React from "react";
+import CardData from "../components/Card/CardData";
 
 function Portfolio() {
+  const portfolioArray = [
+    { title: "", description: "", repo: "", deployed: "", image: "" },
+  ];
+
   return (
-    <div>
+    <>
       <h3>Portfolio</h3>
-    </div>
+    </>
   );
 }
 
