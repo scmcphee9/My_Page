@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Nav } from "react-bootstrap";
+import GitHubImage from "../../pages/assets/images/GitHub-Mark-32px.png";
+import LinkedInImage from "../../pages/assets/images/LI-In-Bug.png";
 // import "./style.css";
 
 // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
@@ -60,6 +61,23 @@ function Navbar() {
             >
               Resume
             </Link>
+          </li>
+          <li className="nav-item">
+            <a href="https://github.com/scmcphee9" target="_blank">
+              <img src={GitHubImage} alt="github icon" />
+            </a>
+          </li>
+          <li className="nav-item">
+            <a
+              href="https://www.linkedin.com/in/shawn-mcphee-4a92731ab/"
+              target="_blank"
+            >
+              <img
+                src={LinkedInImage}
+                alt="LinkIn icon"
+                style={{ height: "32px", width: "32px", margin: "3px" }}
+              />
+            </a>
           </li>
         </ul>
       </div>
