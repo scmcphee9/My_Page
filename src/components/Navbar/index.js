@@ -1,88 +1,103 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import GitHubImage from "../../pages/assets/images/GitHub-Mark-32px.png";
-import LinkedInImage from "../../pages/assets/images/LI-In-Bug.png";
+import { Navbar } from "react-bootstrap";
+// import GitHubImage from "../../pages/assets/images/GitHub-Mark-32px.png";
+// import LinkedInImage from "../../pages/assets/images/LI-In-Bug.png";
 // import "./style.css";
 
 // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
-function Navbar() {
+function MyNavbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Link className="navbar-brand" to="/">
         Shawn McPhee
       </Link>
-      <div>
-        <ul className="navbar-nav">
-          <li className="nav-item">
-            <Link
-              to="/"
-              className={
-                window.location.pathname === "/" ||
-                window.location.pathname === "/about"
-                  ? "nav-link active"
-                  : "nav-link"
-              }
-            >
-              About
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link
-              to="/portfolio"
-              className={
-                window.location.pathname === "/portfolio"
-                  ? "nav-link active"
-                  : "nav-link"
-              }
-            >
-              Portfolio
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link
-              to="/contactme"
-              className={
-                window.location.pathname === "/contactme"
-                  ? "nav-link active"
-                  : "nav-link"
-              }
-            >
-              Contact Me
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link
-              to="/resume"
-              className={
-                window.location.pathname === "/resume"
-                  ? "nav-link active"
-                  : "nav-link"
-              }
-            >
-              Resume
-            </Link>
-          </li>
-          <li className="nav-item">
-            <a href="https://github.com/scmcphee9" target="_blank">
-              <img src={GitHubImage} alt="github icon" />
-            </a>
-          </li>
-          <li className="nav-item">
-            <a
-              href="https://www.linkedin.com/in/shawn-mcphee-4a92731ab/"
-              target="_blank"
-            >
-              <img
-                src={LinkedInImage}
-                alt="LinkIn icon"
-                style={{ height: "32px", width: "32px", margin: "3px" }}
-              />
-            </a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+      <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+      <Navbar.Collapse id="responsive-navbar-nav">
+        <div>
+          <ul className="navbar-nav">
+            <li className="nav-item">
+              <Link
+                to="/"
+                className={
+                  window.location.pathname === "/" ||
+                  window.location.pathname === "/about"
+                    ? "nav-link active"
+                    : "nav-link"
+                }
+              >
+                About
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                to="/portfolio"
+                className={
+                  window.location.pathname === "/portfolio"
+                    ? "nav-link active"
+                    : "nav-link"
+                }
+              >
+                Portfolio
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                to="/contactme"
+                className={
+                  window.location.pathname === "/contactme"
+                    ? "nav-link active"
+                    : "nav-link"
+                }
+              >
+                Contact Me
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                to="/resume"
+                className={
+                  window.location.pathname === "/resume"
+                    ? "nav-link active"
+                    : "nav-link"
+                }
+              >
+                Resume
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                to="/GitHub"
+                target="_blank"
+                rel="noreferrer"
+                className={
+                  window.location.href === "/GitHub"
+                    ? "nav-link active"
+                    : "nav-link"
+                }
+              >
+                GitHub
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                to="/LinkedIn"
+                target="_blank"
+                rel="noreferrer"
+                className={
+                  window.location.href === "/LinkedIn"
+                    ? "nav-link active"
+                    : "nav-link"
+                }
+              >
+                LinkedIn
+              </Link>
+            </li>
+          </ul>
+        </div>
+      </Navbar.Collapse>
+    </Navbar>
   );
 }
 
-export default Navbar;
+export default MyNavbar;
