@@ -1,14 +1,14 @@
 import React from "react";
 import { Card } from "react-bootstrap";
 import Photo from "./assets/images/IMG_1463.jpg";
-
+import css from "../App.css";
 function About() {
   return (
-    <Card style={{ width: "75%" }}>
+    <Card id="aboutMe" style={{ width: "75%" }}>
       <div className="row no-gutters">
-        <Card style={{ width: "25%", float: "left" }}>
-          <Card.Img src={Photo} alt="Head Shot" />
-        </Card>
+        {/* <Card style={{ width: "25%", float: "left" }}> */}
+        <Card.Img id="headShot" src={Photo} alt="Head Shot" />
+        {/* </Card> */}
         <Card.Body>
           <Card.Title>About Me</Card.Title>
           <Card.Text>

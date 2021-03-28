@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Navbar } from "react-bootstrap";
+
 // import GitHubImage from "../../pages/assets/images/GitHub-Mark-32px.png";
 // import LinkedInImage from "../../pages/assets/images/LI-In-Bug.png";
 // import "./style.css";
