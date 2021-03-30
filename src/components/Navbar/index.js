@@ -9,7 +9,7 @@ import { Navbar } from "react-bootstrap";
 // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
 function MyNavbar() {
   return (
-    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+    <Navbar id="nav" collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Link className="navbar-brand" to="/">
         Shawn McPhee
       </Link>
