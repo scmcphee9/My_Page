@@ -1,0 +1,13 @@
+#fullDeck {
+  align-items: top;
+  margin-left: 2%;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+#portfolioHeader {
+  z-index: 10;
+  color: rgb(241, 241, 241);
+  margin-left: 5%;
+  margin-top: 20px;
+}

@@ -9,14 +9,13 @@ function About() {
       <img className="background" src={background} />
       <Card id="aboutMe">
         <div className="row no-gutters">
-          {/* <Card style={{ width: "25%", float: "left" }}> */}
           <Card.Img
             id="headShot"
             className="col-md-4"
             src={Photo}
             alt="Head Shot"
           />
-          {/* </Card> */}
+
           <Card.Body className="col-md-8" id="text1">
             <Card.Title>Hire Me!</Card.Title>
             <Card.Text>

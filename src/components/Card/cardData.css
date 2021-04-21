@@ -1,0 +1,13 @@
+#cardStyle {
+  opacity: 90%;
+  width: 18rem;
+}
+
+#link {
+  margin-left: 5px;
+  box-shadow: 3px 5px #a8a8a8;
+}
+
+#repo {
+  box-shadow: 3px 5px #a8a8a8;
+}

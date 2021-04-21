@@ -1,20 +1,21 @@
 import React from "react";
 import { Card, Button, Col } from "react-bootstrap";
+import css from "./cardData.css";
 
 function CardData(props) {
-  // does this belong here or in portfolio
   function handleFormSubmit(link) {
     window.open(link);
   }
 
   return (
     <Col md={4}>
-      <Card style={{ width: "18rem" }}>
+      <Card id="cardStyle">
         <Card.Img variant="top" src={props.image} />
         <Card.Body>
           <Card.Title>{props.title}</Card.Title>
           <Card.Text>{props.description}</Card.Text>
           <Button
+            id="repo"
             variant="primary"
             onClick={() => handleFormSubmit(props.repo)}
           >
@@ -22,6 +23,7 @@ function CardData(props) {
           </Button>
 
           <Button
+            id="link"
             variant="primary"
             onClick={() => handleFormSubmit(props.deployed)}
           >
@@ -31,8 +33,6 @@ function CardData(props) {
       </Card>
       <br></br>
     </Col>
-
-    // {/* </Container> */}
   );
 }
 

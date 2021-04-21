@@ -1,5 +1,7 @@
 import React from "react";
 import { Form, Card, Button } from "react-bootstrap";
+import background from "./assets/images/DSC_0070.jpg";
+import css from "./contactMe.css";
 
 function ContactMe() {
   // function handleFormSubmit(event) {
@@ -11,33 +13,45 @@ function ContactMe() {
   //   // how do i make this work...
   // }
   return (
-    <Card style={{ width: "75rem", margin: "auto", padding: "10px" }}>
-      <h5>Email</h5>
-      <p>
-        <a href="mailto:scmcphee9@gmail.com">scmcphee9@gmail.com</a>
-      </p>
-      <h5>Phone Number</h5>
-      <p>
-        <a href="tel:+1-508-843-3731">(508) 843-3731</a>
-      </p>
-      <h5>GitHub</h5>
-      <p>
-        <a href="https://github.com/scmcphee9" rel="noreferrer" target="_blank">
-          https://github.com/scmcphee9
-        </a>
-      </p>
-      <h5>LinkedIn</h5>
-      <p>
-        <a
-          href="https://www.linkedin.com/in/shawn-mcphee-4a92731ab/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          https://www.linkedin.com/in/shawn-mcphee-4a92731ab/
-        </a>
-      </p>
+    <>
+      <img className="background" src={background} />
+      <Card id="contactCard">
+        <h5>Email</h5>
+        <p>
+          <a className="myInfo" href="mailto:scmcphee9@gmail.com">
+            scmcphee9@gmail.com
+          </a>
+        </p>
+        <h5>Phone Number</h5>
+        <p>
+          <a className="myInfo" href="tel:+1-508-843-3731">
+            (508) 843-3731
+          </a>
+        </p>
+        <h5>GitHub</h5>
+        <p>
+          <a
+            className="myInfo"
+            href="https://github.com/scmcphee9"
+            rel="noreferrer"
+            target="_blank"
+          >
+            https://github.com/scmcphee9
+          </a>
+        </p>
+        <h5>LinkedIn</h5>
+        <p>
+          <a
+            className="myInfo"
+            href="https://www.linkedin.com/in/shawn-mcphee-4a92731ab/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            https://www.linkedin.com/in/shawn-mcphee-4a92731ab/
+          </a>
+        </p>
 
-      {/* <Form>
+        {/* <Form>
         <Form.Group>
           <Form.Label>Name</Form.Label>
           <Form.Control type="name" placeholder="Full Name" />
@@ -55,7 +69,8 @@ function ContactMe() {
           Submit
         </Button>
       </Form> */}
-    </Card>
+      </Card>
+    </>
   );
 }
 

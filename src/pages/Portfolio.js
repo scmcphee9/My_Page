@@ -7,6 +7,8 @@ import TreePic from "./assets/images/treeQuiz.png";
 import FitnessPic from "./assets/images/fitnessTracker.png";
 import Weather from "./assets/images/WeatherApp.png";
 import NoteTaker from "./assets/images/Note_Taker.png";
+import background from "./assets/images/DSC_0333.jpg";
+import css from "./portfolio.css";
 
 function Portfolio() {
   const portfolioArray = [
@@ -63,9 +65,9 @@ function Portfolio() {
 
   return (
     <>
-      <h3>Portfolio</h3>
-
-      <CardDeck>
+      <img className="background" src={background} />
+      <h3 id="portfolioHeader">Portfolio</h3>
+      <CardDeck id="fullDeck">
         {portfolioArray.map((item) => (
           <CardData
             key={item.title}

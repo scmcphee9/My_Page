@@ -1,0 +1,12 @@
+#contactCard {
+  opacity: 85%;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.myInfo {
+  margin-left: 15px;
+}
