@@ -48,19 +48,19 @@ function About() {
               and experience check out my portfolio, resume, or links to my
               github and linkedIn.
             </Card.Text>
-            <Card.Text>
-              <span className="tab"></span>I am from the east coast:
-              Massachusetts, Maine, and Pennsylvannia. I moved out to Colorado
-              in 2019, to a small ski town in Steamboat Springs. I have been
-              married for 5 years to my ever supporting wife Sarah, and together
-              we have a two year old son William. We also have a German Shephard
-              and two cats. My interests are in the outdoors, this includes
-              hiking, biking, skiing, scuba diving, etc. Photography is
-              something I have recently gained a passion for. In particular
-              night photography and macro. If you want to see some of my work
-              and experience check out my portfolio, resume, or links to my
-              github and linkedIn.
-            </Card.Text>
+            <Card.Title>Languages:</Card.Title>
+            <ul>
+              <li>JavasScript</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>ReactJS</li>
+              <li>Node</li>
+            </ul>
+            <Card.Title>Databases:</Card.Title>
+            <ul>
+              <li>MongoDB</li>
+              <li>MySQL</li>
+            </ul>
           </Card.Body>
         </div>
       </Card>
