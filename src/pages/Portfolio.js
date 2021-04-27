@@ -8,6 +8,7 @@ import FitnessPic from "./assets/images/fitnessTracker.png";
 import Weather from "./assets/images/WeatherApp.png";
 import NoteTaker from "./assets/images/Note_Taker.png";
 import background from "./assets/images/DSC_0333.jpg";
+import Readme from "./assets/images/readme-creator.png";
 import css from "./portfolio.css";
 
 function Portfolio() {
@@ -23,7 +24,7 @@ function Portfolio() {
     {
       title: "Employee Directory",
       description:
-        "This is an application that can hold all of your employees. You can search by their name or phone number to sort through the list. You can also order the list in alphabetical order, ascending or descending. This application uses react.",
+        "This is an application that can hold all of your employees. You can search by their name or phone number to sort through the list. You can also order the list in alphabetical order, ascending or descending. This application uses reactJS and axios.",
       repo: "https://github.com/scmcphee9/employee_directory",
       deployed: "https://pensive-snyder-69b1b3.netlify.app/",
       image: EmployeeDirectory,
@@ -39,7 +40,7 @@ function Portfolio() {
     {
       title: "Fitness Tracker",
       description:
-        "Track your fitness days and workouts by cardio or weight lifting.  This app will show you your past workout information and charts on progress.  This app uses",
+        "Track your fitness days and workouts by cardio or weight lifting.  This app will show you your past workout information and charts on progress.  This app uses javascript, MonogoDB, mongoose.",
       repo: "https://github.com/scmcphee9/Workout_tracker",
       deployed:
         "https://secure-basin-67312.herokuapp.com/?id=6023329785d2e4001182ad79",
@@ -48,7 +49,7 @@ function Portfolio() {
     {
       title: "Weather Application",
       description:
-        "Going on a trip? Check out the weather of where you are going and the long range forecast to help predict what to bring and wear.",
+        "Going on a trip? Check out the weather of where you are going and the long range forecast to help predict what to bring and wear. This app uses JQuery, fetch calls, and promises.",
       repo: "https://github.com/scmcphee9/weather_app",
       deployed: "https://scmcphee9.github.io/weather_app/",
       image: Weather,
@@ -56,10 +57,26 @@ function Portfolio() {
     {
       title: "Note Taker",
       description:
-        "Need to take note or make a list? This app does that! Take notes, save them, and remove them when they are complete!",
+        "Need to take note or make a list? This app does that! Take notes, save them, and remove them when they are complete!  This app uses an express server, api and html routes, javascript.",
       repo: "https://github.com/scmcphee9/Note_Taker",
       deployed: "https://afternoon-dawn-66402.herokuapp.com/",
       image: NoteTaker,
+    },
+    {
+      title: "ReadMe Creator",
+      description:
+        "Need to make a ReadMe file for your repo? This allows you to enter in all of the necessary information, then writes it and creates a new file.  This app uses NodeJs, inquirer, read/write files",
+      repo: "https://github.com/scmcphee9/README_Creator",
+      deployed: "https://www.shawnmcphee.com",
+      image: Readme,
+    },
+    {
+      title: "Remind Me",
+      description:
+        "Need to make a ReadMe file for your repo? This allows you to enter in all of the necessary information, then writes it and creates a new file.  This app uses NodeJs, inquirer, read/write files",
+      repo: "https://github.com/scmcphee9/README_Creator",
+      deployed: "https://www.shawnmcphee.com",
+      image: Readme,
     },
   ];
 
