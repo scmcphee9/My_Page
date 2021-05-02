@@ -6,6 +6,7 @@ import ContactMe from "./pages/ContactMe";
 import Resume from "./pages/Resume";
 import MyNavbar from "./components/Navbar";
 import Footer from "./components/Footer/Footer";
+import pdf from "./pages/assets/images/Shawn McPhee Website.pdf";
 
 function App() {
   return (
