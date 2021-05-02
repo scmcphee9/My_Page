@@ -9,6 +9,8 @@ import Weather from "./assets/images/WeatherApp.png";
 import NoteTaker from "./assets/images/Note_Taker.png";
 import background from "./assets/images/DSC_0333.jpg";
 import Readme from "./assets/images/readme-creator.png";
+import RemindMe from "./assets/images/RemindMe.png";
+import ChuckRoast from "./assets/images/ChuckRoast.png";
 import css from "./portfolio.css";
 
 function Portfolio() {
@@ -73,10 +75,18 @@ function Portfolio() {
     {
       title: "Remind Me",
       description:
-        "Need to make a ReadMe file for your repo? This allows you to enter in all of the necessary information, then writes it and creates a new file.  This app uses NodeJs, inquirer, read/write files",
-      repo: "https://github.com/scmcphee9/README_Creator",
+        "Need to make a ReadMe file for your repo? This allows you to enter in all of the necessary information, then writes it and creates a new file.  This app uses NodeJs, inquirer, read/write files.  NOTE: Deployment will not send you to the actual site.  There is a bug that is currently being worked on, for the link please see the repo. The site works properly locally.",
+      repo: "https://github.com/scmcphee9/Remind-Me",
       deployed: "https://www.shawnmcphee.com",
-      image: Readme,
+      image: RemindMe,
+    },
+    {
+      title: "Chuck Roast",
+      description:
+        "Need to figure out what to make for dinner? Select your protein, or dessert, and then choose your meal to get your recipe and a Chuck Norris food joke to inspire you to round-house-kick your meal up a notch!  This application uses javascript, html, and fetch.",
+      repo: "https://github.com/scmcphee9/Chuck_Roast",
+      deployed: "https://samfan808.github.io/Chuck_Roast/",
+      image: ChuckRoast,
     },
   ];
 
