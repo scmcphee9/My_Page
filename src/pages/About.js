@@ -3,7 +3,7 @@ import { Card } from "react-bootstrap";
 import Photo from "./assets/images/IMG_1463.jpg";
 import background from "./assets/images/DSC_0798.jpg";
 import Footer from "../components/Footer/Footer";
-import css from "../App.css";
+import "../App.css";
 function About() {
   return (
     <div>

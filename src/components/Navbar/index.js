@@ -2,11 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Navbar } from "react-bootstrap";
 
-// import GitHubImage from "../../pages/assets/images/GitHub-Mark-32px.png";
-// import LinkedInImage from "../../pages/assets/images/LI-In-Bug.png";
-// import "./style.css";
-
-// Depending on the current path, this component sets the "active" class on the appropriate navigation link item
 function MyNavbar() {
   return (
     <Navbar id="nav" collapseOnSelect expand="lg" bg="dark" variant="dark">
