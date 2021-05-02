@@ -2,6 +2,7 @@ import React from "react";
 import { Card } from "react-bootstrap";
 import Photo from "./assets/images/IMG_1463.jpg";
 import background from "./assets/images/DSC_0798.jpg";
+import Footer from "../components/Footer/Footer";
 import css from "../App.css";
 function About() {
   return (
@@ -64,6 +65,7 @@ function About() {
           </Card.Body>
         </div>
       </Card>
+      <Footer />
     </div>
   );
 }

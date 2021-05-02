@@ -1,6 +1,7 @@
 import React from "react";
 import { Form, Card, Button } from "react-bootstrap";
 import background from "./assets/images/DSC_0070.jpg";
+import Footer from "../components/Footer/Footer";
 import css from "./contactMe.css";
 
 function ContactMe() {
@@ -70,6 +71,7 @@ function ContactMe() {
         </Button>
       </Form> */}
       </Card>
+      <Footer />
     </>
   );
 }

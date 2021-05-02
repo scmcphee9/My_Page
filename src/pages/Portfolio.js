@@ -11,6 +11,7 @@ import background from "./assets/images/DSC_0333.jpg";
 import Readme from "./assets/images/readme-creator.png";
 import RemindMe from "./assets/images/RemindMe.png";
 import ChuckRoast from "./assets/images/ChuckRoast.png";
+import Footer from "../components/Footer/Footer";
 import css from "./portfolio.css";
 
 function Portfolio() {
@@ -106,6 +107,7 @@ function Portfolio() {
           />
         ))}
       </CardDeck>
+      <Footer />
     </>
   );
 }
