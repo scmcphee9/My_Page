@@ -7,7 +7,7 @@ import "../App.css";
 function About() {
   return (
     <div>
-      <img className="background" src={background} />
+      <img alt="bacground" className="background" src={background} />
       <Card id="aboutMe">
         <div className="row no-gutters">
           <Card.Img

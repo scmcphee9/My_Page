@@ -1,6 +1,6 @@
 import React from "react";
 import { Card, Button, Col } from "react-bootstrap";
-import css from "./cardData.css";
+import "./cardData.css";
 
 function CardData(props) {
   function handleFormSubmit(link) {

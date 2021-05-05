@@ -1,5 +1,5 @@
 import React from "react";
-import { Form, Card, Button } from "react-bootstrap";
+import { Card } from "react-bootstrap";
 import background from "./assets/images/DSC_0070.jpg";
 import Footer from "../components/Footer/Footer";
 import "./contactMe.css";
@@ -15,7 +15,7 @@ function ContactMe() {
   // }
   return (
     <>
-      <img className="background" src={background} />
+      <img alt="bacground" className="background" src={background} />
       <Card id="contactCard">
         <h5>Email</h5>
         <p>
