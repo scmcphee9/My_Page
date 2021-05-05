@@ -19,7 +19,7 @@ function Portfolio() {
     {
       title: "Keep Dreaming",
       description:
-        "Select you travel destination by answering some basic questions, and a list of locations will be displayed.  This project is currently only using seeded data so not all options will be displayed.  This is a full stack project utilizing mySQL, express, node, and javascript",
+        "Select you travel destination by answering some basic questions, and a list of locations will be displayed.  This project is currently only using seeded data so not all options will be displayed.  This is a full stack project utilizing mySQL, express, node, and javascript.",
       repo: "https://github.com/scmcphee9/Keep_Dreaming",
       deployed: "https://frozen-journey-37808.herokuapp.com/",
       image: KeepDreaming,
@@ -84,7 +84,7 @@ function Portfolio() {
     {
       title: "Chuck Roast",
       description:
-        "Need to figure out what to make for dinner? Select your protein, or dessert, and then choose your meal to get your recipe and a Chuck Norris food joke to inspire you to round-house-kick your meal up a notch!  This application uses javascript, html, and fetch.",
+        "Need to figure out what to make for dinner? Select your protein or dessert, and then choose your meal to get your recipe and a Chuck Norris food joke to inspire you to round-house-kick your meal up a notch!  This application uses javascript, html, and fetch.",
       repo: "https://github.com/scmcphee9/Chuck_Roast",
       deployed: "https://samfan808.github.io/Chuck_Roast/",
       image: ChuckRoast,
